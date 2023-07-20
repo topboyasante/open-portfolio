@@ -6,7 +6,7 @@ function Footer() {
   return (
    
 <footer>
-  <div className="mx-auto w-full max-w-[1600px] p-4 py-6 lg:py-8">
+  <div className="mx-auto w-full max-w-[1400px] p-4 py-6 lg:py-8">
     <div className="md:flex md:justify-between">
       <div className="mb-6 md:mb-0">
       <Image src={Logo} alt='Open-Logo'/>
@@ -22,7 +22,7 @@ function Footer() {
       </div>
       <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+          <h2 className="mb-6 text-sm font-semibold text-gray-600 uppercase">
             Resources
           </h2>
           <ul className="font-medium">
@@ -39,7 +39,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+          <h2 className="mb-6 text-sm font-semibold text-gray-600 uppercase">
             Follow us
           </h2>
           <ul className="font-medium">
@@ -62,7 +62,7 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">
+          <h2 className="mb-6 text-sm font-semibold text-gray-600 uppercase">
             Legal
           </h2>
           <ul className="font-medium">

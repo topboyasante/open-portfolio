@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 function Hero() {
   return (
-    <main className='max-w-[1600px] mx-auto p-5 h-full'>
+    <main className='max-w-[1400px] mx-auto p-5 h-full'>
         {/* Header Section */}
         <section className='flex flex-col justify-center items-center'>
             {/* Text */}

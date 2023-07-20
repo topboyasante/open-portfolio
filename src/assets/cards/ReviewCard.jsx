@@ -14,7 +14,7 @@ function ReviewCard({img,review,name,company}) {
         <br />
         <section className='h-[100%]'>
             <section>
-                <p className='font-extralight text-subtext-2 text-xl'>{review}</p>
+                <p className='font-extralight text-subtext-2 text-md'>{review}</p>
             </section>
             <hr className='my-5 border-[#33363a]'/>
             <p>{name} <span className='font-extralight text-[#33363a]'>/</span> <span className='text-base'>{company}</span></p>

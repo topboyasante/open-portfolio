@@ -10,7 +10,7 @@ const architectsDF = Architects_Daughter({ subsets: ['latin'], weight:"400" })
 
 function Solutions() {
   return (
-    <main className='max-w-[1600px] mx-auto p-5 h-full'>
+    <main className='max-w-[1400px] mx-auto p-5 h-full'>
         <section className='flex flex-col justify-center items-center'>
 
             {/* Header Text */}

@@ -5,4 +5,9 @@
 body{
   background-color: #151819;
   color: #d9e3ea;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
